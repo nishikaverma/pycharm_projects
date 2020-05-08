@@ -1,0 +1,71 @@
+
+-:GUI PROGRAMMNG :-
+
+libraries for GUI programming--
+1. Tkinter
+2.PyQT
+3.Wxpython
+
+$$$$$$$$$$$ module/library-- 'Tkinter'
+			   - 'messagebox' [submodule of 'tkinter' module] --methods--	showinfo(title,message)
+											showerror(title,message)
+											showwarning(title,message)
+											askyesno(title,message)
+											askokcancel(title,message)
+											askretrycancel(title,message)
+											askyesnocancel(title,message)
+
+			  - 'simpledialog' [submodule of 'tkinter' module] --methods-- askstring(title,message)
+										     askinteger(title,message)
+										     askfloat(title,message)
+											
+ $ class- 'Tk'
+  - methods of Tk class :
+        * mainloop()- used to display a root/ main wedge and statrs an in finite loop which terminates only when main window is closed   
+        * title("title name")
+        * iconphoto(tk_object,PhotoImage_object)
+        * geometry("width(in pixals) x height(in pixals)+(pixal location)+(pixal location)")
+        * winfo_screenwidth()
+        * winfo_screenheight()
+	* resizable(False/True,False/True)
+	* Label(tk_clas_object, attributes)  -- attributes are: bg,fg, text, font, width, height,  borderwidth, relief, anchor,borderwidth,relief,image, compound,text variable,
+		- pack()
+		-place()
+		-grid()
+		-config() / configure()
+		-keys()
+	* geometry("400x400")
+	* Button(tk_clas_object, attributes) -- attributes : command
+	* Entry(tk_clas_object, attributes) --attributes:
+		-get()
+
+ $ class- 'PhotoImage'
+
+$$$$$$$$$$$$$ module --"tkinter.font"	
+
+ $ class 'Font'
+
+$$$$$$$$$$$$ methods for layouting:
+	        - pack() [arguments= fill,padx,pady,ipadx,ipady,side]
+			
+		-place() [arguments= x,y]
+		-grid() [arguments= row, cloumn, sticky,rowspan,colspan]
+
+$$$$$$$$$$$$ some more methods:
+			-now() [method of class 'datetime' in module 'datetime']
+			-strftime() [method of class 'datetime' in module 'datetime']
+			-bind(<"event">,function_name)		
+
+$$$$$$$$$$$$ dialog boxes:
+
+1.Message box-- dispays some text
+		-showinfo()
+		-showerror()
+		-showwarning()
+		
+
+
+2.
+3.
+4. 
+5.
